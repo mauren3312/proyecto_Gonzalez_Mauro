@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    background-color: #fdd700;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.parrafo {
+    background-color: rgb(253, 236, 0);
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 300px;
+}
+
+footer {
+    background-color: GoldenRod;
+    padding: 10px 20px 30px 40px;
+    margin: 10px 200px;
+}
+
+/* Estilos generales para el menú */
+.menu {
+    background-color: #333; /* Fondo oscuro */
+    padding: 10px 0;
+    text-align: center; /* Centra el contenido */
+}
+
+/* Elimina los estilos de la lista */
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Hace que los elementos de la lista sean horizontales */
+.menu ul li {
+    display: inline; /* Alinea en línea */
+    margin-right: 20px; /* Espaciado entre elementos */
+}
+
+/* Estilos para los enlaces */
+.menu ul li a {
+    text-decoration: none; /* Quita el subrayado */
+    color: white; /* Color del texto */
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s; /* Suaviza el cambio de color */
+}
+
+/* Efecto hover (cuando pasas el mouse) */
+.menu ul li a:hover {
+    background-color: #555; /* Cambio de color al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados */
+}
